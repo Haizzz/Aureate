@@ -1,0 +1,55 @@
+@font-face {
+    font-family:jose;
+    src:url(josefin.ttf);
+}
+#close {
+    position:absolute;
+    width:16px;
+    height:16px;
+    margin-top:20px;
+    margin-left:20px;
+    z-index:0;
+}
+#getTime{
+    position:absolute;
+    border:none;
+    width:100%;
+    height:100%;
+    background:#2980b9;
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    font-family: jose, sans-serif;
+}
+#remaining{
+    position:absolute;
+    width:80%;
+    height:50px;
+    color:#007B2D;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-left:10%;
+    margin-top:68px;
+    opacity:0;
+    z-index:10;
+    text-align: center;
+}
+#start {
+    scroll:none;
+    transition: all 0.2s;
+    -webkit-app-region:none;
+    position:absolute;
+    width:50px;
+    height:50px;
+    margin-left:420px;
+    margin-top:30px;
+    outline:none;
+    border:none;
+    font-size: 30px;
+    font-family: jose,sans-serif;
+    color:white;
+    border-radius: 100%;
+    background: url(arrow-right.png) no-repeat center #27ae60;
+    -webkit-transition-timing-function: cubic-bezier(.17,.67,.83,.67); /* Safari and Chrome */
+    transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+}
