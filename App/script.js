@@ -1,6 +1,5 @@
 $(document).ready(
     function() {
-        require('nw.gui').Window.get().showDevTools();
         var started = false;
         var trigger = false;
         var time = new Date();
